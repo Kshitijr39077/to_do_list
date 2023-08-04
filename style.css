@@ -13,7 +13,7 @@ main {
   width: 700px;
   margin: 90px auto;
   padding: 20px;
-  box-shadow: 0px 0px 10px 2px #acafb8;
+  /* box-shadow: 0px 0px 10px 2px #728cdb; */
   border-radius: 15px;
 }
 
@@ -21,9 +21,10 @@ main {
 .input-container {
   /* position: absolute; */
   padding: 10px 15px;
-  background-color: hsl(0, 7%, 89%);
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0px 0px 10px 2px #728cdb;
   border-radius: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 55px;
 }
 
 input[type=text] {
@@ -42,7 +43,7 @@ input[type=text] {
 
 .main-list-icon{
   position: fixed;
-  left: 542px;
+  left: 410px;
   top: 135px;
   font-size: 25px;
   color: rgb(89, 89, 89);
@@ -96,7 +97,6 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-
 }
 
 ul li {
